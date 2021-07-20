@@ -12,10 +12,10 @@ import {
 } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
 import { RootStoreContext } from '../../app/stores/rootStore';
-import LoginForm from '../user/LoginForm';
-import RegisterForm from '../user/RegisterForm';
-import DateInput from '../../app/common/form/DateInput';
-import { Form as FinalForm, Field } from 'react-final-form';
+// import LoginForm from '../user/LoginForm';
+// import RegisterForm from '../user/RegisterForm';
+// import DateInput from '../../app/common/form/DateInput';
+// import { Form as FinalForm, Field } from 'react-final-form';
 
 const options = [
     {key: 'm', text: 'Male', value: 'male'},

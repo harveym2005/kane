@@ -138,8 +138,17 @@ const ClientForm = () => {
                 <Form.Select fluid label='Gender' options={options} placeholder='Gender'></Form.Select>
                 <Form.Input fluid label='TIN No.' placeholder='TIN No.'></Form.Input>
             </Form.Group>
-          <div className="ClientButton">
-            <Form.Group className="Clientbutton1">
+          
+        </Form>
+        )}
+        />
+        
+        </div>
+      {/* </Container> */}
+    
+    </Segment>
+    {/* <div className="ClientButton"> */}
+            
                 <Button style={{width:'10em'}}
                         color="grey"
                         content="Cancel"
@@ -154,15 +163,8 @@ const ClientForm = () => {
                 >
                     
                     </Button>
-          </Form.Group>
-          </div>    
-        </Form>
-        )}
-        />
-        </div>
-      {/* </Container> */}
-    
-    </Segment>
+          
+          {/* </div>     */}
     </Segment>
     
   );

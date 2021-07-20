@@ -99,7 +99,8 @@ body {
 }
 
 .ClientButton{
-  float: right;
+  /* float: right; */
+  align-items: center;
 }
 
 .C4{
@@ -109,6 +110,41 @@ body {
 
 #name{
   float: left;
+}
+
+.Homeback{
+  background-color: black;
+  height:45em;
+  width: 100em;
+}
+
+.HomeFix{
+  background-color: black;
+}
+.ui.inverted.vertical.center.aligned.segment{
+  min-height: 700px;
+  padding: 1em 0em;
+}
+
+.ui.inverted.header.h1{
+  font-size: 3em;
+}
+.ui.inverted.header.h2{
+  font-size: 2em;
+}
+
+.ui.text.container{
+  margin-top: 4em;
+  margin-bottom: 13em;
+  text-align: center;
+}
+
+.ui.vertical.segmentt{
+  margin-bottom: 5em;
+}
+
+.ui.selection.dropdown{
+  margin-right: 20px;
 }
 
 /* .loginMenu{
